@@ -4,7 +4,7 @@ class CreateAccounts < ActiveRecord::Migration[5.2]
   
     create_table :accounts do |t|
 
-    t.integer :user_id
+    t.integer :account_number
     t.integer :balance
 
       t.timestamps
